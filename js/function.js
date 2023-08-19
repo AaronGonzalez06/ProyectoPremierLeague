@@ -15,8 +15,9 @@ async function resultados(year) {
 		const jsonData = JSON.parse(result);
         if(!localStorage.getItem("resultados")){
             localStorage.setItem("resultados",JSON.stringify(jsonData));
+	    location.reload();
         }else{
-			localStorage.removeItem("resultados");
+	    localStorage.removeItem("resultados");
             localStorage.setItem("resultados",JSON.stringify(jsonData));
 		}
 	} catch (error) {

@@ -1,7 +1,7 @@
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'b068d7c049mshc7fb1fa399c3e62p1d7765jsncb45a01c456c',
+		'X-RapidAPI-Key': '02e2c7be6cmsh1a8ef466d363fe4p1cfa9ajsn7bb9490e5bf0',
 		'X-RapidAPI-Host': 'premier-league-standings1.p.rapidapi.com'
 	}
 };

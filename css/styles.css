@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+}
+
+#tabla{
+    width: 55%;
+    height: auto;
+    background-color: #3D195B;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    padding: 11px;
+    margin-bottom: 10px;
+    min-height: 945px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F70158;
+}
+
+#logo{
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#resultado{
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.logo{
+    width: 8%;
+    margin-left: 9px;
+    margin-right: 5px;
+}
+
+.equipo{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-size: 16px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+input {
+    padding-left: 5px;
+    background-color: #333333;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.nombres{
+    display: grid;
+    grid-template-columns: 8% 17% 7% 9% 6% 19% 16% 12%;
+}
+
+.celda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celdaNombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descenso{
+    background-color: #FF4521;
+}
+
+.ganador{
+    background-color: #2ECC71;
+}
+
+.azul{
+    background-color: #3498DB;
+}
+
+.naranja{
+    background-color: #E67E22;
+}
